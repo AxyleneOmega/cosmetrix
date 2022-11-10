@@ -15,14 +15,12 @@ public class materialChanger : MonoBehaviour
 
     public void SwitchFace()
     {
-        
-        Debug.Log("1");
-        faceManager.ChangeFace(faces[faceMaterialIndex]);
-        Debug.Log("2");
-        faceMaterialIndex++;
-        if (faceMaterialIndex > faces.Length)
+        if (faceMaterialIndex >= faces.Length)
         {
             faceMaterialIndex = 0;
         }
+        faceManager.ChangeFace(faces[faceMaterialIndex]);
+        faceMaterialIndex++;
+
     }
 }

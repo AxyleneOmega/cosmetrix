@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caeceacb624484daf8e379c2252fd246, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FacePrefab: {fileID: 6527877509046650313, guid: 3a61c5a92eafbd34d99503b1511af31d, type: 3}
+  m_FacePrefab: {fileID: 6527877509046650313, guid: 078cd76746660a644a32356be2717833, type: 3}
   m_MaximumFaceCount: 1
 --- !u!114 &422232221
 MonoBehaviour:
@@ -197,8 +197,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   faces:
-  - {fileID: 6527877509046650313, guid: 078cd76746660a644a32356be2717833, type: 3}
   - {fileID: 6527877509046650313, guid: 3a61c5a92eafbd34d99503b1511af31d, type: 3}
+  - {fileID: 6527877509046650313, guid: b8ee4aadeff534d42ab543e4d3cb0f24, type: 3}
+  - {fileID: 6527877509046650313, guid: 7932703471a8d064a888baf88de0c60e, type: 3}
   faceManager: {fileID: 0}
   faceMaterialIndex: 0
 --- !u!1 &701705866
@@ -948,7 +949,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 422232221}
         m_TargetAssemblyTypeName: materialChanger, Assembly-CSharp
         m_MethodName: SwitchFace
         m_Mode: 1
